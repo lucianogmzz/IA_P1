@@ -1,0 +1,2 @@
+print("Hola!", "Mi nombre es Luciano.", "Me gusta el postpunk, ", sep="\n", end="Mis bandas favoritas del genero son:\n") # utilizacion de argumentos sep y end para dar formato al texto
+print("-Shame\n", "Fontaines D.C\n", "Joy Division", sep="-") #sep="-" para poner viñeta a las listas.
