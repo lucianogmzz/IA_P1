@@ -1,6 +1,15 @@
-def hello (name): # se define la funcion hello que tiene como argumento name
-    print("hello, ", name)
-
-name = input("ingresa tu nombre: ") #se declara el argumento de la funcion
-
-hello(name)   #se invoca la funcion
+#funcion argumentos posicionales
+def resta(a,b):
+    print(a-b)
+    
+#funcion palabras clave
+def suma(a,b):
+    print(a + b)
+    
+#funcion combinada
+def multiplicacion(a,b):
+    print(a * b)
+    
+resta(6, 2)
+suma(a=6, b=2)
+multiplicacion(6, b=2)
